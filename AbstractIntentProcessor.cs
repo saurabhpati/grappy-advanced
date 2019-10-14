@@ -24,19 +24,6 @@ namespace GrappyAdvanced
         /// <returns></returns>
         public abstract LexResponse Process(LexEvent lexEvent, ILambdaContext context);
 
-        protected string SerializeReservation(FlowerOrder order)
-        {
-            return JsonConvert.SerializeObject(order, new JsonSerializerSettings
-            {
-                NullValueHandling = NullValueHandling.Ignore
-            });
-        }
-
-        protected FlowerOrder DeserializeReservation(string json)
-        {
-            return JsonConvert.DeserializeObject<FlowerOrder>(json);
-        }
-
         protected LexResponse Close(IDictionary<string, string> sessionAttributes, string fulfillmentState, LexResponse.LexMessage message)
         {
             return new LexResponse

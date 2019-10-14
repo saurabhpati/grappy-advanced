@@ -31,15 +31,14 @@ namespace GrappyAdvanced
         {
             IIntentProcessor process;
 
-            if (lexEvent.CurrentIntent.Name == "OrderFlowers")
-            {       
-                process = new OrderFlowersIntentProcessor();                  
-            }
-            else
+            switch (lexEvent.CurrentIntent.Name)
             {
-                throw new Exception($"Intent with name {lexEvent.CurrentIntent.Name} not supported");
+                case "SleepingIntent":
+                    process = new SleepIntentProcessor();
+                    break;
+                default:
+                    throw new Exception($"Intent with name {lexEvent.CurrentIntent.Name} not supported");
             }
-
 
             return process.Process(lexEvent, context);
         }
