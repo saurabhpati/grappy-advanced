@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrappyAdvanced", "GrappyAdv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrappyAdvanced.Tests", "..\GrappyAdvanced.Tests\GrappyAdvanced.Tests.csproj", "{E301C4E1-55CB-4985-9469-162D9CE19976}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrappyAdvanced.Domain.Shared", "..\GrappyAdvanced.Domain.Shared\GrappyAdvanced.Domain.Shared.csproj", "{7B009B53-5608-4DF1-881C-13EF5BB8CEA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrappyAdvanced.Domain.Implementation", "..\GrappyAdvanced.Domain.Implementation\GrappyAdvanced.Domain.Implementation.csproj", "{6ADABA39-8226-4F38-A331-4C4C9906CD66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrappyAdvanced.Foundation", "..\GrappyAdvanced.Foundation\GrappyAdvanced.Foundation.csproj", "{FF903C13-A822-40B9-8A21-D4EE423AB9A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{E301C4E1-55CB-4985-9469-162D9CE19976}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E301C4E1-55CB-4985-9469-162D9CE19976}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E301C4E1-55CB-4985-9469-162D9CE19976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B009B53-5608-4DF1-881C-13EF5BB8CEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B009B53-5608-4DF1-881C-13EF5BB8CEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B009B53-5608-4DF1-881C-13EF5BB8CEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B009B53-5608-4DF1-881C-13EF5BB8CEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ADABA39-8226-4F38-A331-4C4C9906CD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADABA39-8226-4F38-A331-4C4C9906CD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADABA39-8226-4F38-A331-4C4C9906CD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADABA39-8226-4F38-A331-4C4C9906CD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF903C13-A822-40B9-8A21-D4EE423AB9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF903C13-A822-40B9-8A21-D4EE423AB9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF903C13-A822-40B9-8A21-D4EE423AB9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF903C13-A822-40B9-8A21-D4EE423AB9A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
